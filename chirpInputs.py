@@ -20,7 +20,7 @@ def getInputData():
 
     left = list(chirp_signal)
     right = list(np.flip(chirp_signal))
-    return left+right
+    return left#+right
 
 if __name__=="__main__":
     # 생성된 Chirp 신호 시각화
